@@ -17,19 +17,39 @@ def get_image_path(filename):
 PRODUCTS = {
     "Fertilizers": [
         {"id": 1, "name": "Organic Fertilizer", "brand": "AgroCo", "price": 500, "description": "Eco-friendly fertilizer.", "image_path": "organic_Fertlizer.jpg"},
-        {"id": 2, "name": "Nitrogen Booster", "brand": "GrowFast", "price": 650, "description": "Enhances soil fertility.", "image_path": "nitrogen_booster.jpeg"},
+        {"id": 2, "name": "Nitrogen Booster", "brand": "GrowFast", "price": 650, "description": "Enhances soil fertility.", "image_path": r"nitrogen_booster.jpeg"},
         {"id": 3, "name": "Potassium Enricher", "brand": "SoilMax", "price": 700, "description": "Boosts plant strength.", "image_path": "PotassiumEnricher.jpg"},
         {"id": 4, "name": "Phosphorus Mix", "brand": "AgriPro", "price": 600, "description": "Improves root growth.", "image_path": "PhosphorusMix.jpeg"},
-        {"id": 5, "name": "Compost Mix", "brand": "EcoSoil", "price": 400, "description": "Rich in organic matter.", "image_path": "CompostMix.jpeg"}
+        {"id": 5, "name": "Compost Mix", "brand": "EcoSoil", "price": 400, "description": "Rich in organic matter.", "image_path": "CompostMix.jpeg"},
+        {"id": 6, "name": "Bio Fertilizer", "brand": "GreenGrow", "price": 550, "description": "Promotes microbial activity.", "image_path": "BioFertilizer.jpeg"},
+        {"id": 7, "name": "Seaweed Extract", "brand": "MarineAgri", "price": 800, "description": "Natural plant stimulant.", "image_path": "SeaweedExtract.jpg"},
+        {"id": 8, "name": "Liquid Fertilizer", "brand": "NutrientFlow", "price": 750, "description": "Fast-acting liquid formula.", "image_path": "LiquidFertilizer.jpeg"},
+        {"id": 9, "name": "Vermicompost", "brand": "WormFarm", "price": 450, "description": "Nutrient-rich organic compost.", "image_path": "Vermicompost.jpeg"},
+        {"id": 10, "name": "Humic Acid", "brand": "SoilCare", "price": 900, "description": "Enhances nutrient absorption.", "image_path": "HumicAcid.jpeg"}
     ],
     "Tools": [
-        {"id": 6, "name": "Hand Trowel", "brand": "FarmTools", "price": 300, "description": "High-quality steel trowel.", "image_path": "HandTrowel.jpg"},
-        {"id": 7, "name": "Pruning Shears", "brand": "GardenPro", "price": 450, "description": "Sharp and durable shears.", "image_path": "PruningShears.jpg"},
-        {"id": 8, "name": "Garden Hoe", "brand": "AgriTools", "price": 500, "description": "Durable and efficient hoe.", "image_path": "GardenHoe.jpg"}
+        {"id": 11, "name": "Hand Trowel", "brand": "FarmTools", "price": 300, "description": "High-quality steel trowel.", "image_path": "HandTrowel.jpg"},
+        {"id": 12, "name": "Pruning Shears", "brand": "GardenPro", "price": 450, "description": "Sharp and durable shears.", "image_path": "PruningShears.jpg"},
+        {"id": 13, "name": "Garden Hoe", "brand": "AgriTools", "price": 500, "description": "Durable and efficient hoe.", "image_path": "GardenHoe.jpg"},
+        {"id": 14, "name": "Weeding Fork", "brand": "WeedMaster", "price": 350, "description": "Removes weeds effectively.", "image_path": "WeedingFork.jpg"},
+        {"id": 15, "name": "Spade", "brand": "DuraDig", "price": 600, "description": "Heavy-duty garden spade.", "image_path": "Spade.jpeg"},
+        {"id": 16, "name": "Watering Can", "brand": "AquaGrow", "price": 250, "description": "Ergonomic design.", "image_path": "WateringCan.jpeg"},
+        {"id": 17, "name": "Rake", "brand": "LandPro", "price": 550, "description": "Efficient for soil leveling.", "image_path": "Rake.jpeg"},
+        {"id": 18, "name": "Garden Gloves", "brand": "HandSafe", "price": 200, "description": "Protective and durable.", "image_path": "GardenGloves.jpeg"},
+        {"id": 19, "name": "Hedge Trimmer", "brand": "TrimTech", "price": 1500, "description": "Electric hedge trimmer.", "image_path": "HedgeTrimmer.jpeg"},
+        {"id": 20, "name": "Soil Tester", "brand": "AgriScan", "price": 950, "description": "Analyzes soil nutrients.", "image_path": "SoilTester.jpeg"}
     ],
     "Gadgets": [
-        {"id": 9, "name": "Soil Moisture Sensor", "brand": "TechAgri", "price": 1200, "description": "Monitors soil moisture levels.", "image_path": "SoilMoistureSensor.jpeg"},
-        {"id": 10, "name": "Smart Irrigation Controller", "brand": "IrrigSmart", "price": 2500, "description": "Automates irrigation scheduling.", "image_path": "SmartIrrigationController.jpeg"}
+        {"id": 21, "name": "Soil Moisture Sensor", "brand": "TechAgri", "price": 1200, "description": "Monitors soil moisture levels.", "image_path": "SoilMoistureSensor.jpeg"},
+        {"id": 22, "name": "Smart Irrigation Controller", "brand": "IrrigSmart", "price": 2500, "description": "Automates irrigation scheduling.", "image_path": "SmartIrrigationController.jpeg"},
+        {"id": 23, "name": "Drone Sprayer", "brand": "AgriDrone", "price": 15000, "description": "Precision pesticide spraying.", "image_path": "DroneSprayer.jpeg"},
+        {"id": 24, "name": "Weather Station", "brand": "ClimateWatch", "price": 5000, "description": "Real-time weather updates.", "image_path": "WeatherStation.jpeg"},
+        {"id": 25, "name": "Automated Seeder", "brand": "SeedBot", "price": 8000, "description": "Automates seed planting.", "image_path": "AutomatedSeeder.jpeg"},
+        {"id": 26, "name": "AI Crop Analyzer", "brand": "AgriAI", "price": 12000, "description": "AI-based crop health detection.", "image_path": "AICropAnalyzer.jpeg"},
+        {"id": 27, "name": "Electric Weeder", "brand": "EcoWeed", "price": 4000, "description": "Non-chemical weed removal.", "image_path": "ElectricWeeder.jpeg"},
+        {"id": 28, "name": "Solar-Powered Pump", "brand": "SolarFlow", "price": 10000, "description": "Eco-friendly water pumping.", "image_path": "SolarPoweredPump.jpeg"},
+        {"id": 29, "name": "Livestock Tracker", "brand": "FarmTrack", "price": 3500, "description": "GPS-based livestock monitoring.", "image_path": "LivestockTracker.jpeg"},
+        {"id": 30, "name": "Hydroponic Kit", "brand": "HydroFarm", "price": 6000, "description": "Indoor farming made easy.", "image_path": "HydroponicKit.jpeg"}
     ]
 }
 
